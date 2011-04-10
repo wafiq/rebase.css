@@ -1,0 +1,106 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+p, blockquote, q, pre, address, hr, code, samp,
+dl, ol, ul, form, table, fieldset, menu {
+	margin-bottom: 1.5em;
+}
+
+html { font-size: 100%; overflow-y: scroll; }
+body { font-family: arial, helvetica, sans-serif; font-size: .875em; line-height: 1.5; *font-size:small; }
+body, select, input, textarea { color: #444; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1 { font-size: 3em; line-height: 1.1; margin-bottom: .238em; }
+h2 { font-size: 2em; line-height: 1.15; margin-bottom: .357em; }
+h3 { font-size: 1.5em; line-height: 1.2; margin-bottom: .476em; }
+h4, h5, h6 { font-size: 1em; margin-bottom: .715em; }
+a, a:active, a:visited { color: #607890; }
+a:hover { color: #036; }
+em, i { font-style: italic; }
+strong, b { font-weight: bold; }
+blockquote, q, cite { font-style: italic; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, 
+q:before, q:after { content: ""; content: none; }
+code, kbd, pre, samp, tt { font-family: "andale mono", consolas, monaco, "lucida console", "courier new", courier, monospace; line-height: 1.3; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 15px; }
+abbr[title], dfn[title], acronym { border-bottom: 1px dotted; cursor: help; font-style: normal; font-variant: normal; cursor: help; }
+var { font-style: normal; }
+center { text-align: center; }
+img { border: 0; }
+
+ul { list-style: disc outside none; }
+ol { list-style: decimal outside none; }
+li { margin-left: 2em; }
+li ul, li ol { margin-bottom: 0; }
+dt { font-weight: bold; }
+dd { margin-bottom: 1em; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+big { font-size: 1.25em; }
+small, sub, sup { font-size: .85em; }
+sub, sup { line-height: 1; }
+sub { vertical-align: bottom; }
+sup { vertical-align: top; }
+del, s, strike { text-decoration: line-through; }
+ins { border-bottom: 1px dotted; text-decoration: none; }
+bdo { border-bottom: 1px dotted; }
+u { text-decoration: underline; }
+
+select, input, textarea, button { font:99% sans-serif; }
+fieldset { padding: 1em; }
+legend { font-weight: bold; padding: 0 .25em; }
+input, textarea, select, button { font-family: inherit; font-size: 1em; }
+input, select { vertical-align: middle; }
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+label, input[type="button"], input[type="file"], input[type="image"], input[type="reset"], input[type="submit"], button { cursor: pointer; line-height: 1; }
+input[type="text"], input[type="password"], textarea { padding: 1px; }
+button, input, select, textarea { margin: 0; }
+textarea { line-height: 1.25; text-align: left; overflow: auto; }
+button { width: auto; overflow: visible; }
+
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+
+table { border: 0; border-collapse: collapse; border-spacing: 0; line-height: 1.3; }
+caption, th, td { text-align: left; vertical-align: top; }
+th, td { border: 1px solid; padding: .5em 1em; }
+caption { padding-bottom: 1em; }
+th { font-weight: bold; }
+
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+a:hover, a:active { outline: none; }
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
