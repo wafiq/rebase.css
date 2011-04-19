@@ -1,0 +1,1 @@
+Rebase.css eliminate the needs for separate stylesheets to reset and rebuild base styling. This stylesheet combines the goodness of HTML5 Boilerplate by Paul Irish and Toucan CSS Reset by Borderleft.
